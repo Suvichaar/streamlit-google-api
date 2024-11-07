@@ -20,7 +20,7 @@ def get_google_docs_service():
     return build('docs', 'v1', credentials=credentials)
 
 # Streamlit App Title
-st.title("Google Sheets and Docs Data Viewer")
+st.title("Master Library Sheet and Document Viewer:Suvichaar")
 
 # Google Sheets Section
 st.header("Google Sheets Data")
