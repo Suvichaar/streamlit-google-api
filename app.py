@@ -26,7 +26,7 @@ st.title("Master Library Sheet and Document Viewer:Suvichaar")
 st.header("Google Sheets Data")
 # Add your Google Sheets ID and range
 sheet_id = "1Fg4dplOnUFBX-L4i-mFaik75qjxdF6gO46irKm3qm3A"
-range_name = "Sheet1!A1:D10"
+range_name = "Sheet1!A1:D100"
 sheets_service = get_google_sheets_service()
 sheet = sheets_service.spreadsheets().values().get(spreadsheetId=sheet_id, range=range_name).execute()
 values = sheet.get("values", [])
